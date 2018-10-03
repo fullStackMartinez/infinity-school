@@ -1,6 +1,7 @@
 $primary-color:#1B85c3;
 $secondary-color: #192123;
 $light-blue-color:#227EAF;
+$link-color: #06406E;
 
 
 html, body {
@@ -24,36 +25,51 @@ header {
 			padding-right: 10%;
 
 			li {
-				margin: auto 10px;
+				margin: auto 15px;
 			}
 
 			.fab {
 				height: auto;
 				color: white;
+
+				&:hover {
+				color: $link-color;
+				}
 			}
 		}
 
 		&.icons {
-			height: 30px;
+			height: 50px;
 			background-color: $secondary-color;
 
-			button{
+			.button{
+				padding: 10px 25px;
+				margin: auto 0;
+				font-weight: 600;
+				font-size: 14px;
 				margin-left: 10%;
+				background-color: white;
+				border-radius: 4px;
+
+				a {
+					color: $secondary-color;
+					position: relative;
+					text-decoration: none;
+				}
 			}
 
 			ul {
 
 				li {
 					position: relative;
-					bottom: 18px;
+					bottom: 8px;
 				}
 			}
-
 		}
 
 		&.links {
 			height: 85px;
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: bold;
 
 			a {
@@ -61,13 +77,13 @@ header {
 				color: $secondary-color;
 
 				&:hover {
-					color: $light-blue-color;
+					color: $link-color;
 				}
 			}
 
 			.logo {
 				width: 100px;
-				margin-left: 9%;
+				margin-left: 9.5%;
 
 				img {
 					max-width: 100px;
@@ -81,9 +97,59 @@ header {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
+	background-image: url("../img/campus.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	.modal {
+		width: 300px;
+		display: flex;
+		height: 370px;
+		align-items: center;
+		border: 1px solid black;
+		position: relative;
+		justify-content: center;
+		bottom: 10px;
+		left: 140px;
+		padding-bottom: 25px;
+		background-color: rgba( $secondary-color, .6);
+
+		.fa-lightbulb:before {
+			color: white;
+		}
+
+		h3, p {
+			color: white;
+		}
+
+		input {
+			width: 180px;
+			padding: .4em;
+			margin-bottom: 10px;
+			text-align: center;
+			font-size: 12px;
+			font-family: 'Helvetica';
+			border-radius: 5px;
+		}
+	}
+
+	.button {
+		display: block;
+		width:180px;
+		padding: .5em;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		color: $secondary-color;
+		text-decoration: none;
+		font-size: 20px;
+		border: 3px solid black;
+		border-radius: 5px;
+	}
 }
 
 

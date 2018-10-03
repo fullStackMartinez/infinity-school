@@ -4,6 +4,7 @@
     <list default="true" id="4362870a-de34-419b-b969-504db350a5d4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/3d5a95c2dacb4d24fb49d9a1ebeb65e9420329fb/main.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/3d5a95c2dacb4d24fb49d9a1ebeb65e9420329fb/main.scssc" />
       <change beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/c13087ad77e5671811a4a5900710e343f9e5d1c4/main.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/c13087ad77e5671811a4a5900710e343f9e5d1c4/main.scssc" />
       <change beforePath="$PROJECT_DIR$/stylesheets/main.scss" afterPath="$PROJECT_DIR$/stylesheets/main.scss" />
       <change beforePath="$PROJECT_DIR$/stylesheets/styles.css" afterPath="$PROJECT_DIR$/stylesheets/styles.css" />
@@ -23,8 +24,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="79" lean-forward="false" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
                   <folding />
                 </state>
               </provider>
@@ -33,8 +34,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="68">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -44,21 +45,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/stylesheets/partials/_buttons.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="578">
+                  <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -82,6 +73,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/stylesheets/partials/_buttons.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/main.scss" />
       </list>
@@ -285,7 +277,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538522411453</updated>
-      <workItem from="1538522413523" duration="13480000" />
+      <workItem from="1538522413523" duration="21635000" />
     </task>
     <task id="LOCAL-00001" summary="finished writing html for homepage">
       <created>1538528579057</created>
@@ -301,11 +293,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538529537331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="navigation styling, hero styling, created partials/_buttons.scss">
+      <created>1538540422236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538540422236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13480000" />
+    <option name="totallyTimeSpent" value="21635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1869" y="8" width="1375" height="863" extended-state="0" />
@@ -340,7 +339,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished writing html for homepage" />
     <MESSAGE value="edited html, added img directory with images" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited html, added img directory with images" />
+    <MESSAGE value="navigation styling, hero styling, created partials/_buttons.scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation styling, hero styling, created partials/_buttons.scss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -349,24 +349,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -375,6 +359,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="79" lean-forward="false" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding />
         </state>
       </provider>
