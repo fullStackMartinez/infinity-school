@@ -1,5 +1,51 @@
-body {
-  color: #FgF;
-  margin: 0; }
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  margin: 0 10%; }
+
+header nav {
+  display: flex; }
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    padding-right: 10%; }
+    header nav ul li {
+      margin: auto 10px; }
+    header nav ul .fab {
+      height: auto;
+      color: white; }
+  header nav.icons {
+    height: 30px;
+    background-color: #192123; }
+    header nav.icons button {
+      margin-left: 10%; }
+    header nav.icons ul li {
+      position: relative;
+      bottom: 18px; }
+  header nav.links {
+    height: 85px;
+    font-size: 12px;
+    font-weight: bold; }
+    header nav.links a {
+      text-decoration: none;
+      color: #192123; }
+      header nav.links a:hover {
+        color: #227EAF; }
+    header nav.links .logo {
+      width: 100px;
+      margin-left: 9%; }
+      header nav.links .logo img {
+        max-width: 100px; }
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
