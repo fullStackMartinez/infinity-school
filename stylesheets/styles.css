@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Lora", serif; }
 
 .wrapper {
   margin: 0 10%; }
@@ -13,7 +14,8 @@ header nav {
     margin-left: auto;
     padding-right: 10%; }
     header nav ul li {
-      margin: auto 15px; }
+      margin: auto 15px;
+      font-family: "Lora", serif; }
     header nav ul .fab {
       height: auto;
       color: white; }
@@ -23,13 +25,20 @@ header nav {
     height: 50px;
     background-color: #192123; }
     header nav.icons .button {
+      display: block;
       padding: 10px 25px;
       margin: auto 0;
       font-weight: 600;
       font-size: 14px;
       margin-left: 10%;
       background-color: white;
-      border-radius: 4px; }
+      border-radius: 4px;
+      text-decoration: none;
+      color: #192123;
+      font-family: "Lora", serif; }
+      header nav.icons .button:hover {
+        background-color: #06406E;
+        color: white; }
       header nav.icons .button a {
         color: #192123;
         position: relative;
@@ -38,7 +47,7 @@ header nav {
       position: relative;
       bottom: 8px; }
   header nav.links {
-    height: 85px;
+    height: 65px;
     font-size: 14px;
     font-weight: bold; }
     header nav.links a {
@@ -50,19 +59,21 @@ header nav {
       width: 100px;
       margin-left: 9.5%; }
       header nav.links .logo img {
-        max-width: 100px; }
+        max-width: 100px;
+        position: relative;
+        bottom: 10px; }
 
 #hero {
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
   background-image: url("../img/campus.jpg");
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-position: 50% 60%;
+  background-repeat: no-repeat; }
   #hero .modal {
     width: 300px;
     display: flex;
@@ -77,27 +88,70 @@ header nav {
     background-color: rgba(25, 33, 35, 0.6); }
     #hero .modal .fa-lightbulb:before {
       color: white; }
-    #hero .modal h3, #hero .modal p {
-      color: white; }
+    #hero .modal h2, #hero .modal p {
+      color: white;
+      font-family: "Lora", serif; }
     #hero .modal input {
       width: 180px;
       padding: .4em;
       margin-bottom: 10px;
       text-align: center;
       font-size: 12px;
-      font-family: 'Helvetica';
+      font-family: "Lora", serif;
       border-radius: 5px; }
   #hero .button {
     display: block;
-    width: 180px;
+    width: 200px;
     padding: .5em;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     color: #192123;
+    background-color: white;
     text-decoration: none;
     font-size: 20px;
-    border: 3px solid black;
-    border-radius: 5px; }
+    border-radius: 5px;
+    font-family: "Lora", serif; }
+
+.title {
+  display: inline-block;
+  margin: 35px 10%;
+  color: #192123; }
+
+main {
+  display: flex;
+  font-family: "Lora", serif; }
+  main section {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main section div {
+      max-width: 300px;
+      margin-right: 50px; }
+    main section h4 {
+      color: #192123;
+      padding-bottom: 5px; }
+    main section .button {
+      padding: 10px 25px;
+      margin: auto 0;
+      font-weight: 600;
+      font-size: 14px;
+      background-color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #192123;
+      border: 2px solid #192123;
+      font-family: "Lora", serif; }
+    main section img {
+      max-width: 300px;
+      height: 200px; }
+  main aside {
+    flex: 1;
+    position: relative;
+    bottom: 65px; }
+    main aside h1 {
+      margin-top: 0;
+      margin-bottom: 33px; }
 
 /*# sourceMappingURL=styles.css.map */
