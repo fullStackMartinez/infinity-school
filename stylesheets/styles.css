@@ -127,12 +127,21 @@ main {
     justify-content: center;
     align-items: center; }
     main section div {
+      height: 480px;
       max-width: 300px;
-      margin-right: 50px; }
+      margin-right: 50px;
+      box-shadow: 0px 0px 6px;
+      border-radius: 3px; }
     main section h4 {
       color: #192123;
-      padding-bottom: 5px; }
+      padding-bottom: 5px;
+      padding-left: 5px; }
+    main section p {
+      padding-left: 5px; }
     main section .button {
+      position: relative;
+      left: 80px;
+      top: 20px;
       padding: 10px 25px;
       margin: auto 0;
       font-weight: 600;
@@ -140,12 +149,16 @@ main {
       background-color: white;
       border-radius: 4px;
       text-decoration: none;
-      color: #192123;
-      border: 2px solid #192123;
+      color: #06406E;
+      border: 2px solid #06406E;
       font-family: "Lora", serif; }
+      main section .button:hover {
+        background-color: #06406E;
+        color: white; }
     main section img {
       max-width: 300px;
-      height: 200px; }
+      height: 200px;
+      border-radius: 3px; }
   main aside {
     flex: 1;
     position: relative;
@@ -157,18 +170,34 @@ main {
       display: flex; }
     main aside .button {
       display: block;
-      width: 50px;
-      padding: .5em;
+      width: 100px;
+      padding: .4em;
       margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
-      color: #192123;
+      color: #06406E;
       background-color: white;
       text-decoration: none;
       font-size: 16px;
-      border: 2px solid #192123;
+      border: 2px solid #06406E;
       border-radius: 5px;
       font-family: "Lora", serif;
       text-align: center; }
+      main aside .button:hover {
+        background-color: #06406E;
+        color: white; }
+    main aside .container {
+      display: flex;
+      margin-top: 25px; }
+      main aside .container .container-image {
+        margin: auto; }
+        main aside .container .container-image img {
+          border-radius: 3px; }
+      main aside .container .container-text {
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 10px; }
+        main aside .container .container-text p {
+          margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */

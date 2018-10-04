@@ -188,20 +188,31 @@ main {
 			align-items: center;
 
 			div {
+				height: 480px;
 				max-width: 300px;
 				margin-right: 50px;
+				box-shadow: 0px 0px 6px;
+				border-radius: 3px;
 			}
 
 			h4 {
 				color: $secondary-color;
 				padding-bottom: 5px;
+				padding-left: 5px;
 
 				&:after {
 
 				}
 			}
 
+			p {
+				padding-left: 5px;
+			}
+
 			.button {
+				position: relative;
+				left: 80px;
+				top: 20px;
 				padding: 10px 25px;
 				margin: auto 0;
 				font-weight: 600;
@@ -209,14 +220,20 @@ main {
 				background-color: white;
 				border-radius: 4px;
 				text-decoration: none;
-				color: $secondary-color;
-				border: 2px solid $secondary-color;
+				color: $link-color;
+				border: 2px solid $link-color;
 				font-family: $font-stack;
+
+				&:hover{
+					background-color: $link-color;
+					color: white;
+				}
 			}
 
 			img {
 				max-width: 300px;
 				height: 200px;
+				border-radius: 3px;
 			}
 		}
 
@@ -236,19 +253,47 @@ main {
 
 		.button {
 			display: block;
-			width: 50px;
-			padding: .5em;
+			width: 100px;
+			padding: .4em;
 			margin-top: 20px;
 			margin-left: auto;
 			margin-right: auto;
-			color: $secondary-color;
+			color: $link-color;
 			background-color: white;
 			text-decoration: none;
 			font-size: 16px;
-			border: 2px solid $secondary-color;
+			border: 2px solid $link-color;
 			border-radius: 5px;
 			font-family: $font-stack;
 			text-align: center;
+
+			&:hover {
+				background-color: $link-color;
+				color: white;
+			}
+		}
+
+		.container {
+			display: flex;
+			margin-top: 25px;
+
+			.container-image {
+				margin: auto;
+
+				img {
+					border-radius: 3px;
+				}
+			}
+
+			.container-text {
+				font-size: 14px;
+				line-height: 1;
+				padding-left: 10px;
+
+				p {
+					margin: 0;
+				}
+			}
 		}
 	}
 	}
