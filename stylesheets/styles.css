@@ -152,6 +152,23 @@ main {
     bottom: 65px; }
     main aside h1 {
       margin-top: 0;
-      margin-bottom: 33px; }
+      margin-bottom: 13px; }
+    main aside .flex-buttons {
+      display: flex; }
+    main aside .button {
+      display: block;
+      width: 50px;
+      padding: .5em;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #192123;
+      background-color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border: 2px solid #192123;
+      border-radius: 5px;
+      font-family: "Lora", serif;
+      text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
